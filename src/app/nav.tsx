@@ -4,7 +4,7 @@ function Logo() {
     return (
         <Link href='/' className='text-center font-medium'>
             <div className="max-w-sm mx-aut space-y-2 sm:flex sm:items-center sm:space-y-0">
-                <img src='/hcsh.png' alt='logo' className='block mx-auto sm:mx-0 sm:shrink-0' />
+                <img src='https://raw.githubusercontent.com/chinf-tw/hcsh-web/beb94616c1433416e1a836369457e426225c594f/public/hcsh.png' alt='logo' className='block mx-auto sm:mx-0 sm:shrink-0' />
                 <div className="text-center sm:text-left">
                     <div className="space-y-0.5">
                         <p className="text-lg text-black font-semibold">
