@@ -19,11 +19,7 @@ export default function RootLayout(
     <html lang="en">
       <body className={inter.className}>
         <Nav />
-        <div className=" bg-primary w-screen h-screen grid place-items-center">
-          <div className='relative w-10/12 h-4/6' style={bg_style}>
-            {children}
-          </div>
-        </div>
+        {children}
       </body>
     </html>
   )
