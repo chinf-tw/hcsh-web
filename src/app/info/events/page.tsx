@@ -1,4 +1,5 @@
 import Context from '../../context';
+import Image from "next/image";
 
 const items = [
   { img_src: '/example_content.webp', title: '2023/9/2免費講座 破解情緒密碼', content: '不論在家庭、職場、校園 提升情緒覺察與表達力是 福音和身心健康的關鍵' },
@@ -10,7 +11,7 @@ const items = [
 export default function Home() {
   return (
     <div>
-      <img className='rounded-md' src="/example_cover.webp" alt="" srcSet="" />
+      <Image className='rounded-md' src="/example_cover.webp" alt="" />
       {items.map((item, index) => (
         <Context key={index} img_src={item.img_src} title={item.title} content={item.content} flip={index % 2 != 0} />
       ))}
