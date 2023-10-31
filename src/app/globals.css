@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: 'Taipei Sans TC Beta';
-  src: url('/fonts/TaipeiSansTCBeta-Regular.ttf');
+  src: url('fonts/TaipeiSansTCBeta-Regular.ttf');
   font-weight: normal;
 }
 @font-face {
   font-family: 'Taipei Sans TC Beta';
-  src: url('/fonts/TaipeiSansTCBeta-Bold.ttf');
+  src: url('fonts/TaipeiSansTCBeta-Bold.ttf');
   font-weight: bold;
 }
 @font-face {
   font-family: 'Taipei Sans TC Beta';
-  src: url('/fonts/TaipeiSansTCBeta-Light.ttf');
+  src: url('fonts/TaipeiSansTCBeta-Light.ttf');
   font-weight: 300;
 }
 body {
