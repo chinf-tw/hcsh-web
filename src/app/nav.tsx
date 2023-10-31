@@ -52,4 +52,5 @@ const Nav = React.forwardRef<HTMLDivElement>((props, ref) => {
         </nav>
     );
 });
+Nav.displayName = 'Nav';
 export default Nav;
