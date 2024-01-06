@@ -1,10 +1,14 @@
 
 
-export default function Context(props: { img_src: string, title: string, content: string, flip?: boolean }) {
+export default function Context(props: { img_src: string, title: string, content: JSX.Element, flip?: boolean, date?: string }) {
   const text = (
     <div className="min-w-0 relative flex-auto text-center">
-      <h1 className="text-3xl font-semibold text-slate-900 truncate">{props.title}</h1>
-      <p className="text-slate-500 font-medium text-sm sm:text-base leading-tight dark:text-slate-400">{props.content}</p>
+      <h1 className="title text-5xl font-semibold text-slate-900">{props.title}</h1>
+      {props.content}
+      {props.date &&
+        <p className="text-slate-400 font-medium text-sm sm:text-base leading-tight dark:text-slate-400">{props.date}</p>
+      }
+
     </div>
   )
   const img = (

@@ -6,14 +6,14 @@ function Logo() {
     return (
         <Link href='/' className='text-center font-medium'>
             <div className="max-w-sm mx-aut space-y-2 sm:flex sm:items-center sm:space-y-0">
-                <Image src='https://raw.githubusercontent.com/chinf-tw/hcsh-web/beb94616c1433416e1a836369457e426225c594f/public/hcsh.png' alt='logo' className='block mx-auto sm:mx-0 sm:shrink-0' />
+                <Image src='/hcsh.png' alt='logo' className='block mx-auto sm:mx-0 sm:shrink-0' width={100} height={100} />
                 <div className="text-center sm:text-left">
                     <div className="space-y-0.5">
                         <p className="text-lg text-black font-semibold">
                             雙和基督之家全人關懷中心
                         </p>
                         <p className="text-slate-500 font-medium w-56">
-                            HOME CHRIST OF CHURCH IN SHUANG HO
+                            HOME OF CHRIST CHURCH IN SHUANG HO
                         </p>
                     </div>
                 </div>
